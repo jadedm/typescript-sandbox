@@ -1,5 +1,5 @@
 "use strict";
-var add = function (a, b) {
-    return a + b;
-};
-console.log(add(5, 4));
+Object.defineProperty(exports, "__esModule", { value: true });
+var decorators_1 = require("./decorators");
+var boat = new decorators_1.Boat();
+boat.pilot();

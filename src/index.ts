@@ -1,5 +1,4 @@
-const add = (a: number, b:number): number => {
-	return a + b
-}
+import { Boat } from './decorators'
 
-console.log(add(5,4))
+const boat = new Boat()
+boat.pilot()
